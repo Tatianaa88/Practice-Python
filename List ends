@@ -1,0 +1,10 @@
+a = [5, 10, 15, 20, 25]
+
+b = []
+
+def new_b():
+    b.append(a[0])
+    b.append(a[-1])
+
+new_b()
+print(b)
